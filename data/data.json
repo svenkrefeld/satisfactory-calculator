@@ -1639,7 +1639,7 @@
                 ["rubber", 20],
                 ["screw", 104]
             ],
-            "product": ["heavy-modular-frame", 3]
+            "product": ["heavy-modular-frame", 1]
         },
         {
             "name": "Computer",
@@ -1896,12 +1896,11 @@
         {
             "name": "Nobelisk",
             "key_name": "nobelisk",
-            "category": "crafting3",
+            "category": "crafting2",
             "time": 20,
             "ingredients": [
                 ["black-powder", 5],
-                ["steel-pipe", 5],
-                ["beacon", 1]
+                ["steel-pipe", 10]
             ],
             "product": ["nobelisk", 1]
         },
