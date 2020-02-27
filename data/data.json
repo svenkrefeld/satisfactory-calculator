@@ -760,6 +760,17 @@
             "product": ["iron-ingot", 5]
         },
         {
+            "name": "Alternate: Pure Iron Ingot",
+            "key_name": "alt-pure-iron-ingot",
+            "category": "refining",
+            "time": 12,
+            "ingredients": [
+                ["iron-ore", 7],
+                ["water", 4]
+            ],
+            "product": ["iron-ingot", 13]
+        },
+        {
             "name": "Copper Ingot",
             "key_name": "copper-ingot",
             "category": "smelting1",
