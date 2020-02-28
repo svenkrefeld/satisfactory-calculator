@@ -1414,10 +1414,10 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["polymer-resin", 3],
+                ["polymer-resin", 6],
                 ["water", 2]
             ],
-            "product": ["plastic", 1]
+            "product": ["plastic", 2]
         },
         {
             "name": "Liquid Biofuel",
@@ -1478,32 +1478,32 @@
             "category": "refining",
             "time": 2,
             "ingredients": [
-                ["water", 1],
-                ["empty-canister", 1]
+                ["water", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-water", 1]
+            "product": ["packaged-water", 2]
         },
 		{
             "name": "Packaged Oil",
             "key_name": "packaged-oil",
             "category": "refining",
-            "time": 5,
+            "time": 4,
             "ingredients": [
-                ["crude-oil", 1],
-                ["empty-canister", 1]
+                ["crude-oil", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-oil", 1]
+            "product": ["packaged-oil", 2]
         },
 		{
             "name": "Packaged Heavy Oil Residue",
             "key_name": "packaged-heavy-oil-residue",
             "category": "refining",
-            "time": 6,
+            "time": 4,
             "ingredients": [
-                ["heavy-oil-residue", 1],
-                ["empty-canister", 1]
+                ["heavy-oil-residue", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-heavy-oil-residue", 1]
+            "product": ["packaged-heavy-oil-residue", 2]
         },
 		{
             "name": "Packaged Fuel",
@@ -1511,10 +1511,10 @@
             "category": "refining",
             "time": 3,
             "ingredients": [
-                ["fuel", 1],
-                ["empty-canister", 1]
+                ["fuel", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-fuel", 1]
+            "product": ["packaged-fuel", 2]
         },
 		{
             "name": "Alternate: Diluted Packaged Fuel",
@@ -1533,7 +1533,7 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["heavy-oil-residue", 3]
+                ["heavy-oil-residue", 6]
             ],
             "product": ["fuel", 4]
         },
@@ -1543,21 +1543,21 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["turbofuel", 1],
-                ["empty-canister", 1]
+                ["turbofuel", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-turbofuel", 1]
+            "product": ["packaged-turbofuel", 2]
         },
 		{
             "name": "Packaged Liquid Biofuel",
             "key_name": "packaged-liquid-biofuel",
             "category": "refining",
-            "time": 4,
+            "time": 3,
             "ingredients": [
-                ["liquid-biofuel", 1],
-                ["empty-canister", 1]
+                ["liquid-biofuel", 2],
+                ["empty-canister", 2]
             ],
-            "product": ["packaged-liquid-biofuel", 1]
+            "product": ["packaged-liquid-biofuel", 2]
         },
 		{
             "name": "Rubber",
@@ -1575,10 +1575,10 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["polymer-resin", 2],
+                ["polymer-resin", 4],
                 ["water", 4]
             ],
-            "product": ["rubber", 1]
+            "product": ["rubber", 2]
         },
         {
                 "name": "Alternate: Recycled Rubber",
@@ -1609,9 +1609,9 @@
             "category": "refining",
             "time": 6,
             "ingredients": [
-                ["heavy-oil-residue", 2]
+                ["heavy-oil-residue", 4]
             ],
-            "product": ["petroleum-coke", 6]
+            "product": ["petroleum-coke", 12]
         },
         {
             "name": "Heavy Modular Frame",
