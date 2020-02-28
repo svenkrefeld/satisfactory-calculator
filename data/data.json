@@ -63,11 +63,11 @@
             "max": 2
         },
         {
-            "name": "Oil Refinery",
+            "name": "Refinery",
             "key_name": "oil-refinery",
             "category": "refining",
-            "power": 50,
-            "max": 1
+            "power": 30,
+            "max": 2
         }
     ],
     "miners": [
@@ -674,7 +674,7 @@
             "time": 24,
             "ingredients": [
                 ["reinforced-iron-plate", 1],
-                ["rotor", 2],
+                ["rotor", 1],
                 ["plastic", 3]
             ],
             "product": ["smart-plating", 2]
@@ -702,14 +702,14 @@
             "product": ["automated-wiring", 3]
         },
 		{
-            "name": "Alternate: High-Speed Wiring",
-            "key_name": "alt-automated-wiring",
+            "name": "Alternate: Automated Speed Wiring",
+            "key_name": "alt-automated-speed-wiring",
             "category": "crafting3",
             "time": 32,
             "ingredients": [
                 ["stator", 2],
-				["cable", 40],
-				["high-speed-connector", 2]
+                ["wire", 40],
+                ["high-speed-connector", 1]
             ],
             "product": ["automated-wiring", 4]
         },
@@ -863,20 +863,20 @@
             "time": 12,
             "ingredients": [
                 ["iron-ingot", 10],
-                ["plastic", 4]
+                ["plastic", 2]
             ],
             "product": ["iron-plate", 15]
         },
         {
-            "name": "Alternate: Steel Iron Plate",
-            "key_name": "alt-steel-iron-plate",
+            "name": "Alternate: Steel Coated Plate",
+            "key_name": "alt-steel-coated-plate",
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["steel-ingot", 4],
-                ["plastic", 4]
+                ["steel-ingot", 3],
+                ["plastic", 2]
             ],
-            "product": ["iron-plate", 15]
+            "product": ["iron-plate", 18]
         },
         {
             "name": "Iron Rod",
@@ -966,7 +966,7 @@
             "category": "refining",
             "time": 8,
             "ingredients": [
-                ["wire", 7],
+                ["wire", 5],
                 ["heavy-oil-residue", 2]
             ],
             "product": ["cable", 9]
@@ -980,7 +980,7 @@
                 ["quickwire", 3],
                 ["rubber", 2]
             ],
-            "product": ["cable", 9]
+            "product": ["cable", 11]
         },
         {
             "name": "Biomass",
@@ -1008,7 +1008,7 @@
             "category": "crafting2",
             "time": 24,
             "ingredients": [
-                ["silica", 5],
+                ["silica", 3],
                 ["limestone", 12]
             ],
             "product": ["concrete", 10]
@@ -1020,7 +1020,7 @@
             "time": 12,
             "ingredients": [
                 ["limestone", 10],
-                ["rubber", 4]
+                ["rubber", 2]
             ],
             "product": ["concrete", 9]
         },
@@ -1028,12 +1028,12 @@
             "name": "Alternate: Wet Concrete",
             "key_name": "alt-wet-concrete",
             "category": "refining",
-            "time": 6,
+            "time": 3,
             "ingredients": [
-                ["limestone", 12],
+                ["limestone", 6],
                 ["water", 5]
             ],
-            "product": ["concrete", 8]
+            "product": ["concrete", 4]
         },
         {
             "name": "Screw",
@@ -1173,7 +1173,7 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["iron-plate", 16],
+                ["iron-plate", 18],
                 ["screw", 50]
             ],
             "product": ["reinforced-iron-plate", 3]
@@ -1185,7 +1185,7 @@
             "time": 32,
             "ingredients": [
                 ["iron-plate", 10],
-                ["wire", 26]
+                ["wire", 20]
             ],
             "product": ["reinforced-iron-plate", 3]
         },
@@ -1196,7 +1196,7 @@
             "time": 16,
             "ingredients": [
                 ["iron-plate", 3],
-                ["rubber", 2]
+                ["rubber", 1]
             ],
             "product": ["reinforced-iron-plate", 1]
         },
@@ -1218,7 +1218,7 @@
             "time": 12,
             "ingredients": [
                 ["steel-pipe", 2],
-                ["wire", 12]
+                ["wire", 6]
             ],
             "product": ["rotor", 1]
         },
@@ -1325,13 +1325,13 @@
             "name": "Alternate: Rigour Motor",
             "key_name": "alt-motor",
             "category": "crafting3",
-            "time": 40,
+            "time": 48,
             "ingredients": [
                 ["rotor", 3],
                 ["stator", 3],
                 ["crystal-oscillator", 1]
             ],
-            "product": ["motor", 5]
+            "product": ["motor", 6]
         },
         {
             "name": "Circuit Board",
@@ -1404,7 +1404,7 @@
             "time": 12,
             "ingredients": [
                 ["rubber", 6],
-                ["fuel", 5]
+                ["fuel", 6]
             ],
             "product": ["plastic", 12]
         },
@@ -1520,12 +1520,12 @@
             "name": "Alternate: Diluted Packaged Fuel",
             "key_name": "alt-diluted-packaged-fuel",
             "category": "refining",
-            "time": 4,
+            "time": 2,
             "ingredients": [
-                ["packaged-heavy-oil-residue", 1],
-                ["water", 3]
+                ["heavy-oil-residue", 1],
+                ["packaged-water", 2]
             ],
-            "product": ["packaged-fuel", 4]
+            "product": ["packaged-fuel", 2]
         },
 		{
             "name": "Residual Fuel",
@@ -1586,7 +1586,7 @@
                 "category": "refining",
                 "time": 12,
                 "ingredients": [
-                    ["plastic", 5],
+                    ["plastic", 6],
                     ["fuel", 6]
                 ],
                 "product": ["rubber", 12]
@@ -2133,10 +2133,10 @@
             "category": "crafting3",
             "time": 64,
             "ingredients": [
-                ["motor", 8],
-                ["radio-control-unit", 4],
-                ["ai-limiter", 8],
-                ["stator", 8]
+                ["motor", 7],
+                ["radio-control-unit", 5],
+                ["ai-limiter", 9],
+                ["stator", 7]
             ],
             "product": ["turbo-motor", 3]
         },
@@ -2216,10 +2216,10 @@
             "category": "crafting2",
             "time": 60,
             "ingredients": [
-                ["stator", 6],
-                ["high-speed-connector", 3]
+                ["stator", 10],
+                ["high-speed-connector", 5]
             ],
-            "product": ["em-control-rod", 6]
+            "product": ["em-control-rod", 10]
         },
         {
             "name": "Nuclear Fuel Rod",
