@@ -1466,11 +1466,11 @@
             "name": "Empty Canister",
             "key_name": "empty-canister",
             "category": "crafting1",
-            "time": 6,
+            "time": 4,
             "ingredients": [
-                ["plastic", 6]
+                ["plastic", 2]
 				],
-            "product": ["empty-canister", 1]
+            "product": ["empty-canister", 4]
         },
 		{
             "name": "Packaged Water",
