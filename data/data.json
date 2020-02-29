@@ -703,7 +703,7 @@
         },
 		{
             "name": "Alternate: Automated Speed Wiring",
-            "key_name": "alt-automated-speed-wiring",
+            "key_name": "alt-automated-wiring",
             "category": "crafting3",
             "time": 32,
             "ingredients": [
