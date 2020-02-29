@@ -869,7 +869,7 @@
         },
         {
             "name": "Alternate: Steel Coated Plate",
-            "key_name": "alt-steel-coated-plate",
+            "key_name": "alt-steel-iron-plate",
             "category": "crafting2",
             "time": 24,
             "ingredients": [
