@@ -1387,16 +1387,6 @@
             ],
             "product": ["polymer-resin", 13]
         },
-		{
-            "name": "Alternate: Heavy Oil Residue",
-            "key_name": "alt-heavy-oil-residue",
-            "category": "refining",
-            "time": 6,
-            "ingredients": [
-                ["crude-oil", 6]
-            ],
-            "product": ["heavy-oil-residue", 4]
-        },
         {
             "name": "Plastic",
             "key_name": "plastic",
